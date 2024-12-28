@@ -8,14 +8,16 @@
   min-height: 100vh;
 }
 
+
+
 .container-fluid {
   img{
-    width: 170px;
+    width: 130px;
   }
 }
 
 .bg-personalizado {
- font-size: 18px;
+ font-size: 20px;
  color: #FDC010;
  background: rgb(2,0,36);
  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 162, 193) 100%);
@@ -42,7 +44,7 @@
 /* Slider */
 
 .carousel img {
-  height: 780px;
+  height: 700px;
   width: 100%;
   object-fit: cover;
 }
