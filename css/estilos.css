@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenido-main {
+  min-height: 100vh;
+}
+
+.container-fluid {
+  img{
+    width: 170px;
+  }
+}
+
+.bg-personalizado {
+ font-size: 18px;
+ color: #FDC010;
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 162, 193) 100%);
+}
+
+.nav-link {
+  color: #FDC010;
+}
+
+
+.section-footer {
+  img {
+    width: 200px;
+  }
+}
+
+.navbar-nav {
+  img {
+    width: 65px;
+    padding: 7px;
+  }
+}
+
+/* Slider */
+
+.carousel img {
+  height: 780px;
+  width: 100%;
+  object-fit: cover;
+}
