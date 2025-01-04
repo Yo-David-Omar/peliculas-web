@@ -113,3 +113,22 @@
   text-overflow: unset;
   overflow: visible;
 }
+/*damos estilos a los textos de la galeria de imagenes*/
+.textocard{
+  height: 30px;
+  overflow-y: hidden;
+  padding: 5%;
+  background-color: black;
+  transition: all .5s;
+  font-size: .7em;
+  color: rgb(69, 69, 112);
+  font-weight: bolder;
+  display: none;
+  border: 2px double red;
+  border-radius: 3px;
+}
+.textocard:hover{
+  height: 300px;
+  color: white;
+
+}
