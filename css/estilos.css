@@ -17,7 +17,7 @@
 }
 
 .bg-personalizado {
- font-size: 20px;
+ font-size: 19px;
  color: #FDC010;
  background: rgb(2,0,36);
  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 162, 193) 100%);
@@ -47,4 +47,69 @@
   height: 700px;
   width: 100%;
   object-fit: cover;
+}
+ 
+.copy {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #FDC010;
+}
+/*estilos dentro de login bad boys*/
+.columx3-video{
+   video{
+    width: 100%;
+  }
+}
+.badboys{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 162, 193) 100%);
+ a{
+  text-decoration: none;
+  color: rgb(215, 170, 81);
+ }
+ p{
+  color: lemonchiffon;
+  text-transform: capitalize;
+ }
+ span{
+  color: aquamarine;
+ }
+}
+
+.description{
+  width: 50%;
+  height: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: auto;
+  p:hover{
+    transition: all .5s;
+    color: rgb(206, 217, 55);
+    font-size: 1.1em;
+  }
+}
+
+
+
+.description::-webkit-scrollbar{
+  scroll-behavior: smooth;
+}
+
+.text{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+   transition: all .5s;
+}
+
+
+
+.description:hover .text{
+  width: 100%;
+  white-space: normal;
+  text-overflow: unset;
+  overflow: visible;
 }
