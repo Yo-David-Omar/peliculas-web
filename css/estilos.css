@@ -53,15 +53,18 @@
   width: 100%;
   padding: 10px;
   text-align: center;
-  background-color: #FDC01feature/sobre_nosotros
-
+  background-color: #FDC010
+  
+}
 /*Sobre Nosotros*/
 
-.bannerNosotros{
+.bannerNosotros {
     height: 800px;
-    object-fit:cover;
+    object-fit:cover
+    }
+  
    
-  }
+  
 .backsn{
   color: #FDC010;
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 162, 193) 100%);
@@ -158,4 +161,3 @@
   color: white;
 
 }
-dev
