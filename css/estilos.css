@@ -161,3 +161,17 @@
   color: white;
 
 }
+
+/*Pagina error 404*/
+
+.pagina-404-img {
+  width: 100%;
+  border-radius: 50%;
+  height: auto;
+}
+
+.main404 {
+  
+  display: flex;
+  flex-direction: column;
+}
