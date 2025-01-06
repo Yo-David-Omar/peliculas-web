@@ -132,3 +132,11 @@
   color: white;
 
 }
+
+/* Login */
+
+.logos_formulario {
+  img {
+    width: 120px;
+  }
+}
