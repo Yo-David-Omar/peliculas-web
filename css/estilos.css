@@ -132,3 +132,63 @@
   color: white;
 
 }
+
+/*Contacto*/
+
+.main_contacto {
+  background-color: #FDC010;
+}
+
+.titulo {
+color: rgb(5, 5, 147)
+
+}
+
+
+.textarea_contenido{
+  color: blanchedalmond;
+  text-align: center;
+  background: linear-gradient(90deg, rgb(83, 80, 127) 0%, rgb(0, 0, 88) 35%, rgb(4, 75, 90) 100%);
+  width: 400px;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+
+
+
+.formulario label {
+    color: blue;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+
+   .formulario input {
+    color: blanchedalmond;
+    height:35px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 7px;
+    background: linear-gradient(90deg, rgba(10, 3, 139, 0.735) 0%, rgba(9,9,121,1) 35%, rgb(3, 162, 193) 100%);
+   }
+
+   .formulario button {
+    color: blanchedalmond;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 162, 193) 100%);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+   }
+  .formulario a {
+    color: rgba(189, 182, 225, 0.838);
+  }
+
+  .iframe {
+    margin-bottom: 20px;
+  }
