@@ -6,6 +6,7 @@
 
 .contenido-main {
   min-height: 100vh;
+  
 }
 
 .container-fluid {
@@ -168,9 +169,18 @@
 
 /* Login */
 
-.logos_formulario {
+.main-login { 
+  color: rgb(5, 5, 147);
+  background-color: #FDC010;
   img {
-    width: 100px;
+    width: 65px;
+    padding: 10px;
+  }
+}
+
+.iniciar-sesion-imagen {
+  img {
+    width: 680px;
   }
 }
 
@@ -195,9 +205,6 @@ color: rgb(5, 5, 147)
   padding: 7px;
 }
 
-
-
-
 .formulario label {
     color: blue;
     display: block;
@@ -216,8 +223,8 @@ color: rgb(5, 5, 147)
 
    .formulario button {
     color: blanchedalmond;
-    width: 80px;
-    height: 30px;
+    width: 100px;
+    height: 35px;
     border: none;
     border-radius: 10px;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 162, 193) 100%);
@@ -227,7 +234,8 @@ color: rgb(5, 5, 147)
     
    }
   .formulario a {
-    color: rgba(189, 182, 225, 0.838);
+    text-decoration: none;
+    color: rgba(43, 0, 255, 0.838);
   }
 
   .iframe {
