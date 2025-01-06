@@ -8,16 +8,14 @@
   min-height: 100vh;
 }
 
-
-
 .container-fluid {
   img{
-    width: 130px;
+    width: 100px;
   }
 }
 
 .bg-personalizado {
- font-size: 19px;
+ font-size: 1.1em;
  color: #FDC010;
  background: rgb(2,0,36);
  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 162, 193) 100%);
@@ -27,19 +25,23 @@
   color: #FDC010;
 }
 
-
 .section-footer {
   img {
-    width: 200px;
+    width: 150px;
   }
 }
 
 .navbar-nav {
   img {
-    width: 65px;
+    transition: all .5s;
+    width: 50px;
     padding: 7px;
   }
+  img:hover{
+    width: 70px;
+  }
 }
+
 
 /* Slider */
 
@@ -107,10 +109,8 @@
 }
 
 .description{
-  width: 50%;
-  height: 300px;
-  border: 1px solid #ccc;
-  padding: 10px;
+  height: 320px;
+  border: 1px solid #a42121;
   overflow: hidden;
   overflow-y: auto;
   p:hover{
@@ -118,29 +118,33 @@
     color: rgb(206, 217, 55);
     font-size: 1.1em;
   }
+  &::-webkit-scrollbar{
+    scroll-behavior: smooth;
+  }
 }
-
-
-
-.description::-webkit-scrollbar{
-  scroll-behavior: smooth;
-}
-
 .text{
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   width: 100%;
-   transition: all .5s;
+  transition: all .5s;
 }
-
-
-
 .description:hover .text{
   width: 100%;
   white-space: normal;
   text-overflow: unset;
   overflow: visible;
+}
+.tituloh5{
+  font-size: 1em;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    padding-left: 5px;
+    background-color: rgb(30, 129, 129);
+    color: rgb(107, 31, 31);
+  }
 }
 /*damos estilos a los textos de la galeria de imagenes*/
 .textocard{
@@ -152,7 +156,6 @@
   font-size: .7em;
   color: rgb(69, 69, 112);
   font-weight: bolder;
-  display: none;
   border: 2px double red;
   border-radius: 3px;
 }
