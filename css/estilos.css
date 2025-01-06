@@ -166,6 +166,14 @@
 }
 
 
+/* Login */
+
+.logos_formulario {
+  img {
+    width: 100px;
+  }
+}
+
 /*Contacto*/
 
 .main_contacto {
