@@ -153,18 +153,13 @@ color: rgb(5, 5, 147)
   border-radius: 10px;
   padding: 7px;
 }
-
-
-
-
 .formulario label {
     color: blue;
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
    }
-
-   .formulario input {
+  .formulario input {
     color: blanchedalmond;
     height:35px;
     width: 400px;
