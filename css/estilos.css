@@ -53,8 +53,37 @@
   width: 100%;
   padding: 10px;
   text-align: center;
-  background-color: #FDC010;
+  background-color: #FDC010
+  
 }
+/*Sobre Nosotros*/
+
+.bannerNosotros {
+    height: 800px;
+    object-fit:cover
+    }
+  
+   
+  
+.backsn{
+  color: #FDC010;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 162, 193) 100%);
+}
+  .cardNosotros{
+    border: none;
+    max-width: 250px;
+  }
+
+.imgNosotros{
+    border-radius: 80%;
+    filter: grayscale(30%);
+    
+  }
+  .cardNosotros:hover{
+    color: rgb(39, 46, 146);
+    transition: all 3ms;
+  }
+
 /*estilos dentro de login bad boys*/
 .columx3-video{
    video{
@@ -133,6 +162,7 @@
 
 }
 
+
 /*Contacto*/
 
 .main_contacto {
@@ -192,3 +222,17 @@ color: rgb(5, 5, 147)
   .iframe {
     margin-bottom: 20px;
   }
+
+/*Pagina error 404*/
+
+.pagina-404-img {
+  width: 100%;
+  border-radius: 50%;
+  height: auto;
+}
+
+.main404 {
+  
+  display: flex;
+  flex-direction: column;
+}
