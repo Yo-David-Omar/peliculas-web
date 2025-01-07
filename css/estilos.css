@@ -46,9 +46,21 @@
 }
 
 /* Suscripcion */
-
-.btn-suscripcion {
-  
+.ventana a{
+  form{
+    display: none;
+  }
+}
+.ventana a:hover form{
+  overflow-y: scroll;
+  width: 300px;
+  height: 250px;
+  background-color: #FDC010;
+  position: absolute;
+  display: block;
+}
+.ventana a form::-webkit-scrollbar{
+  scroll-behavior: smooth;
 }
 
 
@@ -273,7 +285,6 @@ color: rgb(5, 5, 147)
 }
 
 .main404 {
-  
   display: flex;
   flex-direction: column;
 }
